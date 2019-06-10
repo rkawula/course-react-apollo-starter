@@ -52,12 +52,7 @@ export const TasksModel = {
                     limit: filters._limit ? filters._limit : null,
                     nextPage: total > (filters._page * filters._limit) ? filters._page + 1 : null,
                     total,
-                    tasks: taskResponse.map((task) => {
-                            return {
-                                ...taskResponse,
-                                category: CategoryModel.getCategoryById(task.category)
-                            };
-                    })
+                    tasks: taskResponse
                 };
             });
     },

@@ -11,11 +11,9 @@ query TASKS_LIST {
         id
         title
         taskStatus
-        createdDate
     }
 }`
 ;
-
 
 const TaskList = () => (
   <Query
