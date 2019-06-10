@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "First task",
+      "category": 1,
+      "taskStatus": "INCOMPLETE",
+      "createdDate": "2019-06-01"
+    },
+    {
+      "id": 2,
+      "title": "Second task",
+      "category": 1,
+      "taskStatus": "INCOMPLETE",
+      "createdDate": "2019-06-03"
+    },
+    {
+      "id": 3,
+      "title": "Third task",
+      "category": 2,
+      "taskStatus": "COMPLETE",
+      "createdDate": "2019-06-08"
+    },
+    {
+      "id": 4,
+      "title": "Fourth task",
+      "category": 2,
+      "taskStatus": "COMPLETE",
+      "createdDate": "2019-06-10"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Category 1",
+      "color": "#ffcc00"
+    },
+    {
+      "id": 2,
+      "name": "Category 2",
+      "color": "#cc3333"
+    }
+  ]
+}
