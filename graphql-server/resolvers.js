@@ -6,10 +6,17 @@
 // const TASK_DELETED = "taskDeleted"
 // const TASK_UPDATED = "taskUpdated"
 
+import { TasksModel, CategoryModel } from './models'
+
 export const resolvers = {
     Query:  {
-        hello: () => {
-            return `world!`
+        tasks: async () => {
+            const filters = {};
+            const res = await TasksModel.getTasks(filters);
+            return res.tasks;
+        },
+        taskCategories: async () => {
+            return await CategoryModel.getCategories();
         }
     }
 }

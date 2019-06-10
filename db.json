@@ -1,8 +1,29 @@
 {
-  "items": [
+  "tasks": [
     {
       "id": 1,
-      "name": "some item"
+      "title": "First Task",
+      "category": "34sd45twfer",
+      "status": "INCOMPLETE",
+      "createdDate": "2019-06-10T12:05:39.904Z"
+
+    }
+  ],
+  "categories": [
+    {
+      "id": "4jh54t45",
+      "name": "Home",
+      "color": "#ffcc00"
+    },
+    {
+      "id": "34sd45twfer",
+      "name": "Work",
+      "color": "green"
+    },
+    {
+      "id": "awer54ytdf4",
+      "name": "Family",
+      "color": "blue"
     }
   ]
 }
